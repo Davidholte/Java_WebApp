@@ -1,1 +1,1 @@
-web: java -jar target/WebApp.jar
+web: java -jar target/WebApp-1.0-SNAPSHOT.jar
