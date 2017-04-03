@@ -14,6 +14,8 @@
     <title>$Title$</title>
   </head>
   <body>
+
+  <!-- Content on the site -->
   <div class="container">
       <!-- Header -->
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -151,7 +153,8 @@
   <div id="logoutUser" class="modal fade" role="dialog">
       <%@include file="includes/confirmLogoutUser.jsp" %>
   </div>
-  
+
+
   <!-- All reference links are located in the footer file -->
   <%@include file="includes/footer.jsp" %>
   </body>

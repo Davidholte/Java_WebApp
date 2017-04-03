@@ -1,1 +1,12 @@
-/Users/Dave/IdeaProjects/WebApp/src/main/java/Controller.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/dao/UserDao.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/dao/UserDaoInterface.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/utility/HashSalt.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/pojos/Warehouse.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/pojos/User.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/pojos/Product.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/utility/SQL_DB_Connector.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/dao/WarehouseDao.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/controller/Controller.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/dao/ProductDao.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/dao/ProductDaoInterface.java
+/Users/Dave/IdeaProjects/WebApp/src/main/java/dao/WarehouseDaoInterface.java
