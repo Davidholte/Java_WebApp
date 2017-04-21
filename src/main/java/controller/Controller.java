@@ -76,7 +76,7 @@ public class Controller extends HttpServlet {
                 dispatch.forward(request, response);
             }
             else if (!auth) {
-                RequestDispatcher dispatch = request.getRequestDispatcher("index.jsp");
+                RequestDispatcher dispatch = request.getRequestDispatcher("jsp/index.jsp");
                 dispatch.forward(request, response);
             }
             // else redirect to error page
@@ -134,12 +134,12 @@ public class Controller extends HttpServlet {
         /** Update product */
         // Getting Integer from HTML, compares the Integer with all products in for each loop and uses the Integer as parameter in the method that gets a product by ID
         // Use getters to set attributes and post it into a HTML form so it can be edited and then submitted
-        if(request.getParameter("submit_btn_edit") != null) {
-            int idFromForm = Integer.parseInt(request.getParameter("idforEdit"));
-            Product product = productDao.getProductById(idFromForm);
-            HttpSession session = request.getSession();
-            session.setAttribute("product", product);
-
+//        if(request.getParameter("submit_btn_edit") != null) {
+//            int idFromForm = Integer.parseInt(request.getParameter("idforEdit"));
+//            Product product = productDao.getProductById(idFromForm);
+//            HttpSession session = request.getSession();
+//            session.setAttribute("product", product);
+//
 //                    Det her skal slettes, objektet sættes på session!
 //                    request.setAttribute("name_productSet", product.getName_product());
 //                    request.setAttribute("colorSet", product.getColor());
@@ -156,9 +156,9 @@ public class Controller extends HttpServlet {
 //                    request.setAttribute("sparklySet", product.getSparkly());
 //                    request.setAttribute("for_saleSet", product.getFor_sale());
 //                    request.setAttribute("date_addedSet", product.getDate_added());
-
-
-        }
+//
+//
+//        }
 
         /** Create Warehouse */
         if (request.getParameter("submit_btn_wrhs") != null) {
