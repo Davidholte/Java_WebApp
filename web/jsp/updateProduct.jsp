@@ -55,14 +55,14 @@
 
         <!-- Display content -->
             <h3>Get product by ID</h3>
-            <form class="form-signin" method="POST" action="getProduct.do">
-                <p>Enter Product ID:</p>
-                <input type="text" class="form-control" name="idforEdit" value="Integer Required" required="" autofocus=""/>
-                <br>
-                <button class="btn btn-lg btn-primary btn-block btn-trans" name="submit_btn_getID" type="submit">Submit ID</button>
-                <br>
-                <br>
-            </form>
+            <%--<form class="form-signin" method="POST" action="getProduct.do">--%>
+                <%--<p>Enter Product ID:</p>--%>
+                <%--<input type="text" class="form-control" name="idforEdit" value="Integer Required" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<button class="btn btn-lg btn-primary btn-block btn-trans" name="submit_btn_getID" type="submit">Submit ID</button>--%>
+                <%--<br>--%>
+                <%--<br>--%>
+            <%--</form>--%>
 
             <!-- Edit Product -->
             <h3>Edit Product:</h3>
@@ -118,58 +118,58 @@
             <%--</form>--%>
 
              <%--Outcommented because of error with JSTL --%>
-            <form class="form-signin" method="POST" action="editProduct.do">
-                <jsp:useBean id="product" scope="session" type="pojos.Product"/>
+            <%--<form class="form-signin" method="POST" action="editProduct.do">--%>
+                <%--<jsp:useBean id="product" scope="session" type="pojos.Product"/>--%>
 
-                <p>Product name:</p>
-                <input type="text" class="form-control" name="product_name" value="${product.product_name}" required="" autofocus=""/>
-                <br>
-                <p>Color:</p>
-                <input type="text" class="form-control" name="color" value="${product.color}" required="" autofocus=""/>
-                <br>
-                <p>Grape:</p>
-                <input type="text" class="form-control" name="grape" value="${product.grape}" required=""/>
-                <br>
-                <p>Country of Origin:</p>
-                <input type="text" class="form-control" name="origin_country" value="${product.origin_country}" required="" autofocus=""/>
-                <br>
-                <p>Area of Origin:</p>
-                <input type="text" class="form-control" name="origin_area" value="${product.origin_area}" required="" autofocus=""/>
-                <br>
-                <p>Description:</p>
-                <input type="text" class="form-control" name="description" value="${product.description}" required="" autofocus=""/>
-                <br>
-                <p>Production Year:</p>
-                <input type="text" class="form-control" name="production_year" value="${product.production_year}" required="" autofocus=""/>
-                <br>
-                <p>Production Date:</p>
-                <input type="text" class="form-control" name="production_date" value="${product.production_date}" required="" autofocus=""/>
-                <br>
-                <p>Quantity:</p>
-                <input type="text" class="form-control" name="quantity" value="${product.quantity}" required="" autofocus=""/>
-                <br>
-                <p>Location:</p>
-                <input type="text" class="form-control" name="location" value="${product.location}" required="" autofocus=""/>
-                <br>
-                <p>Price:</p>
-                <input type="text" class="form-control" name="price" value="${product.price}" required="" autofocus=""/>
-                <br>
-                <p>Volume:</p>
-                <input type="text" class="form-control" name="volume" value="${product.volume}" required="" autofocus=""/>
-                <br>
-                <p>Sparkly:</p>
-                <input type="text" class="form-control" name="sparkly" value="${product.sparkly}" required="" autofocus=""/>
-                <br>
-                <p>For Sale:</p>
-                <input type="text" class="form-control" name="for_sale" value="${product.for_sale}" required="" autofocus=""/>
-                <br>
-                <p>Date Added:</p>
-                <input type="text" class="form-control" name="date_added" value="${product.date_added}" required="" autofocus=""/>
-                <br>
-                <button class="btn btn-lg btn-primary btn-block btn-trans" name="submit_btn_edit" type="submit">Submit to Database</button>
-                <br>
-                <br>
-            </form>
+                <%--<p>Product name:</p>--%>
+                <%--<input type="text" class="form-control" name="product_name" value="${product.product_name}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Color:</p>--%>
+                <%--<input type="text" class="form-control" name="color" value="${product.color}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Grape:</p>--%>
+                <%--<input type="text" class="form-control" name="grape" value="${product.grape}" required=""/>--%>
+                <%--<br>--%>
+                <%--<p>Country of Origin:</p>--%>
+                <%--<input type="text" class="form-control" name="origin_country" value="${product.origin_country}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Area of Origin:</p>--%>
+                <%--<input type="text" class="form-control" name="origin_area" value="${product.origin_area}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Description:</p>--%>
+                <%--<input type="text" class="form-control" name="description" value="${product.description}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Production Year:</p>--%>
+                <%--<input type="text" class="form-control" name="production_year" value="${product.production_year}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Production Date:</p>--%>
+                <%--<input type="text" class="form-control" name="production_date" value="${product.production_date}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Quantity:</p>--%>
+                <%--<input type="text" class="form-control" name="quantity" value="${product.quantity}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Location:</p>--%>
+                <%--<input type="text" class="form-control" name="location" value="${product.location}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Price:</p>--%>
+                <%--<input type="text" class="form-control" name="price" value="${product.price}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Volume:</p>--%>
+                <%--<input type="text" class="form-control" name="volume" value="${product.volume}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Sparkly:</p>--%>
+                <%--<input type="text" class="form-control" name="sparkly" value="${product.sparkly}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>For Sale:</p>--%>
+                <%--<input type="text" class="form-control" name="for_sale" value="${product.for_sale}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<p>Date Added:</p>--%>
+                <%--<input type="text" class="form-control" name="date_added" value="${product.date_added}" required="" autofocus=""/>--%>
+                <%--<br>--%>
+                <%--<button class="btn btn-lg btn-primary btn-block btn-trans" name="submit_btn_edit" type="submit">Submit to Database</button>--%>
+                <%--<br>--%>
+                <%--<br>--%>
+            <%--</form>--%>
 
             <!-- Display all products in a list -->
             <h2>List of Products:</h2>
@@ -180,7 +180,7 @@
                         <div>
                             <img class="col-md-2">
                             <br><br>
-                            <img src="img/Wine.png" class="img-thumbnail" alt="img" width="80%" height="80%"/>
+                            <img src="img/Wine.png" class="img-thumbnail" alt="img" width="20%" height="20%"/>
                         </div>
 
                         <div class="col-md-4">
