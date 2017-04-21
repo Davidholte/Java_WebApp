@@ -3,7 +3,6 @@ package controller;
 import dao.ProductDao;
 import dao.UserDao;
 import dao.WarehouseDao;
-import logic.ForkJoinMergeSort;
 import pojos.Product;
 import pojos.User;
 import pojos.Warehouse;
@@ -42,7 +41,6 @@ public class Controller extends HttpServlet {
     protected void doGet (HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         HttpSession session = request.getSession();
-        ForkJoinMergeSort fjmSort = new ForkJoinMergeSort();
 
         ArrayList<Product>   prodList      = productDao.getAllProducts("name_product");
         ArrayList<User>      userList      = userDao.getAllUsers("username");

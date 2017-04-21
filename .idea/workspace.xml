@@ -2,65 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="948bf356-07b4-4a03-ab85-233e8f631ef6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/controller/Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/ProductDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/ProductDaoInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/UserDaoInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/WarehouseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/WarehouseDaoInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/logic/ForkJoinMergeSort.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/logic/ForkJoinMergeSort$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/logic/ForkJoinMergeSort$SortTask.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/logic/ForkJoinMergeSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/pojos/Product.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/pojos/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/pojos/Warehouse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/utility/HashSalt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/utility/SQL_DB_Connector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/img/Wine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/img/test.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/admin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/cart.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/checkout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/createAdmin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/createProduct.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/createUser.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/createWarehouse.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/img/Wine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/img/test.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/includes/confirmLogoutAdmin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/includes/confirmLogoutUser.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/includes/footer.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/includes/header.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/inventory.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/updateProduct.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dao/ProductDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dao/ProductDaoInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dao/UserDaoInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dao/WarehouseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dao/WarehouseDaoInterface.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/logic/ForkJoinMergeSort$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/logic/ForkJoinMergeSort$SortTask.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/logic/ForkJoinMergeSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pojos/Product.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pojos/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pojos/Warehouse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/utility/HashSalt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/utility/SQL_DB_Connector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/controller/Controller.class" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/controller/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" afterPath="$PROJECT_DIR$/target/classes/controller/Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,14 +63,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updateProduct.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="updateProduct.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/jsp/updateProduct.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="174" column="38" lean-forward="false" selection-start-line="174" selection-start-column="38" selection-end-line="174" selection-end-column="38" />
+            <state relative-caret-position="2085">
+              <caret line="180" column="46" lean-forward="false" selection-start-line="180" selection-start-column="46" selection-end-line="180" selection-end-column="46" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-510">
+              <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+              <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -205,30 +173,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inventory.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/inventory.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="77" lean-forward="false" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -272,7 +216,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/WarehouseDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pojos/Warehouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/pojos/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/jsp/createWarehouse.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/createAdmin.jsp" />
@@ -280,8 +223,9 @@
         <option value="$PROJECT_DIR$/web/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/createProduct.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/admin.jsp" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/web/jsp/updateProduct.jsp" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
       </list>
     </option>
   </component>
@@ -425,6 +369,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -444,6 +402,106 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1194,12 +1252,12 @@
       <option name="presentableId" value="Default" />
       <updated>1490948473836</updated>
       <workItem from="1490948478349" duration="3154000" />
-      <workItem from="1491205173754" duration="45887000" />
+      <workItem from="1491205173754" duration="46389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49041000" />
+    <option name="totallyTimeSpent" value="49543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1225,10 +1283,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20722891" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2686747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981402" sideWeight="0.8981763" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981402" sideWeight="0.10182371" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20722891" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15662651" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981402" sideWeight="0.89857143" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981402" sideWeight="0.10142857" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1377,16 +1435,6 @@
         <state relative-caret-position="285">
           <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/ForkJoinMergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1544,16 +1592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="176" column="1" lean-forward="true" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/img/test.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1705,21 +1743,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/web/jsp/updateProduct.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+        <state relative-caret-position="2085">
+          <caret line="180" column="46" lean-forward="false" selection-start-line="180" selection-start-column="46" selection-end-line="180" selection-end-column="46" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/ForkJoinMergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-822">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/updateProduct.jsp">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="174" column="38" lean-forward="false" selection-start-line="174" selection-start-column="38" selection-end-line="174" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
