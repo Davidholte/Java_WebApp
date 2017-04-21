@@ -42,11 +42,11 @@ public class Controller extends HttpServlet {
     protected void doGet (HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         HttpSession session = request.getSession();
-        ForkJoinMergeSort fjSort = new ForkJoinMergeSort();
+        ForkJoinMergeSort fjmSort = new ForkJoinMergeSort();
 
         ArrayList<Product>   prodList      = productDao.getAllProducts("name_product");
         ArrayList<User>      userList      = userDao.getAllUsers("username");
-        ArrayList<Warehouse> warehouseList = whDao.getAllWarehouses();
+        ArrayList<Warehouse> warehouseList = whDao.getAllWarehouses("name_warehouse");
 
         session.setAttribute("productList",   prodList);
         session.setAttribute("userList",      userList);
@@ -164,9 +164,9 @@ public class Controller extends HttpServlet {
 
         /** Create Warehouse */
         if (request.getParameter("submit_btn_wrhs") != null) {
-            String name_warehouse = request.getParameter("name_warehouse");
-            String address        = request.getParameter("address");
-            String description    = request.getParameter("description");
+            String name_warehouse = request.getParameter("wh_name");
+            String address        = request.getParameter("wh_address");
+            String description    = request.getParameter("wh_description");
 
             whDao.createWarehouse(name_warehouse, address, description);
 

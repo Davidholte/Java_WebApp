@@ -50,13 +50,16 @@
 
       <!-- Display all products in a list -->
       <div class="container-fluid" id="content">
+
+          <h1>Diwine Web Application</h1>
+
           <jsp:useBean id="productList" scope="session" type="java.util.ArrayList"/>
           <code:forEach items="${productList}" var="product">
           <div class="row row-control">
               <div>
                   <img class="col-md-2">
                   <br><br>
-                  <img src="img/Wine.png" class="img-thumbnail" alt="img" width="30%" height="20%"/>
+                  <img src="img/Wine.png" class="img-thumbnail" alt="img" width="20%" height="20%"/>
               </div>
 
               <div class="col-md-4">

@@ -114,7 +114,7 @@
                 <div>
                     <img class="col-md-2">
                     <br><br>
-                    <img src="img/Wine.png" class="img-thumbnail" alt="img" width="30%" height="20%"/>
+                    <img src="img/Wine.png" class="img-thumbnail" alt="img" width="20%" height="20%"/>
                 </div>
 
                 <div class="col-md-4">

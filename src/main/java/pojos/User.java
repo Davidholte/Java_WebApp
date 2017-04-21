@@ -99,17 +99,13 @@ public class User {
     }
 
     public String toString(){
-        return  "<div class=\"row row-control\">\n" +
-                "\n" +
-                "                <div class=\"col-md-4\">\n" +
-                "                    <h3>" + username +"</h3>\n" +
-                "                    <p>Password: "+ password + "</p>\n" +
-                "                    <p>Role: "+ role + "</p>\n" +
-                "                    <p>Email: "+ email + "</p>\n" +
-                "                    <p>Bought Items: "+ bought_items + "</p>\n" +
-                "                    <p>user ID: "+ id_user + "</p>\n" +
-                "                    <p>Location: "+ location + "</p>\n" +
-                "                </div>\n";
+        return  "ID: " + id_user + "\n" +
+                "Username: " + username + "\n" +
+                "Password: " + password + "\n" +
+                "Role: " + role + "\n" +
+                "Email: " + "\n" +
+                "Bought Items: " + "\n" +
+                "Location: " + location + "\n";
 
     }
 }

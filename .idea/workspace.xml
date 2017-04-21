@@ -2,47 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="948bf356-07b4-4a03-ab85-233e8f631ef6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/addAdmin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/addProduct.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/addUser.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/addWarehouse.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/jsp/addAdmin.jsp" afterPath="$PROJECT_DIR$/web/jsp/createAdmin.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/jsp/addProduct.jsp" afterPath="$PROJECT_DIR$/web/jsp/createProduct.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/jsp/addUser.jsp" afterPath="$PROJECT_DIR$/web/jsp/createUser.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/jsp/addWarehouse.jsp" afterPath="$PROJECT_DIR$/web/jsp/createWarehouse.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/jsp/edit.jsp" afterPath="$PROJECT_DIR$/web/jsp/updateProduct.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/img/Wine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/img/test.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/controller/Controller.class" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/controller/Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/UserDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/UserDaoInterface.class" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/UserDaoInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/WarehouseDao.class" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/WarehouseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/WarehouseDaoInterface.class" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/dao/WarehouseDaoInterface.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/pojos/User.class" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/pojos/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/pojos/Warehouse.class" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/pojos/Warehouse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/img/Wine.png" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/img/Wine.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" afterPath="$PROJECT_DIR$/target/classes/controller/Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/UserDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/UserDaoInterface.class" afterPath="$PROJECT_DIR$/target/classes/dao/UserDaoInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/WarehouseDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/WarehouseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/WarehouseDaoInterface.class" afterPath="$PROJECT_DIR$/target/classes/dao/WarehouseDaoInterface.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pojos/User.class" afterPath="$PROJECT_DIR$/target/classes/pojos/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pojos/Warehouse.class" afterPath="$PROJECT_DIR$/target/classes/pojos/Warehouse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/Wine.png" afterPath="$PROJECT_DIR$/web/img/Wine.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDaoInterface.java" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDaoInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/UserDaoInterface.java" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDaoInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/WarehouseDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/WarehouseDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/WarehouseDaoInterface.java" afterPath="$PROJECT_DIR$/src/main/java/dao/WarehouseDaoInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pojos/User.java" afterPath="$PROJECT_DIR$/src/main/java/pojos/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pojos/Warehouse.java" afterPath="$PROJECT_DIR$/src/main/java/pojos/Warehouse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/css/custom.css" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/admin.jsp" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/includes/confirmLogoutAdmin.jsp" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/includes/confirmLogoutAdmin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/includes/confirmLogoutUser.jsp" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/includes/confirmLogoutUser.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/createAdmin.jsp" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/createAdmin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/createProduct.jsp" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/createProduct.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/createWarehouse.jsp" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/createWarehouse.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/index.jsp" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/inventory.jsp" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/inventory.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/updateProduct.jsp" afterPath="$PROJECT_DIR$/target/WebApp-1.0-SNAPSHOT/jsp/updateProduct.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/custom.css" afterPath="$PROJECT_DIR$/web/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/admin.jsp" afterPath="$PROJECT_DIR$/web/jsp/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/checkout.jsp" afterPath="$PROJECT_DIR$/web/jsp/checkout.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/includes/confirmLogoutAdmin.jsp" afterPath="$PROJECT_DIR$/web/jsp/includes/confirmLogoutAdmin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/includes/confirmLogoutUser.jsp" afterPath="$PROJECT_DIR$/web/jsp/includes/confirmLogoutUser.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/createAdmin.jsp" afterPath="$PROJECT_DIR$/web/jsp/createAdmin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/createProduct.jsp" afterPath="$PROJECT_DIR$/web/jsp/createProduct.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/createWarehouse.jsp" afterPath="$PROJECT_DIR$/web/jsp/createWarehouse.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/index.jsp" afterPath="$PROJECT_DIR$/web/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/inventory.jsp" afterPath="$PROJECT_DIR$/web/jsp/inventory.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/updateProduct.jsp" afterPath="$PROJECT_DIR$/web/jsp/updateProduct.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,24 +74,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="48" column="68" lean-forward="false" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
+            <state relative-caret-position="315">
+              <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDaoInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDaoInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -102,142 +89,130 @@
       <file leaf-file-name="updateProduct.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/jsp/updateProduct.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="131" column="57" lean-forward="true" selection-start-line="131" selection-start-column="57" selection-end-line="131" selection-end-column="57" />
+            <state relative-caret-position="336">
+              <caret line="175" column="53" lean-forward="false" selection-start-line="175" selection-start-column="53" selection-end-line="175" selection-end-column="53" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#form#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createWarehouse.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/createWarehouse.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="100" column="6" lean-forward="false" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1492777191000" expanded="false" signature="3214:4244" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="61" column="82" lean-forward="false" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql7148879.warehouse" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/2cbeb11e/063d689f-a1ba-4d7a-bfbf-1a2d28846c75/sql7148879.warehouse">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="88" column="54" lean-forward="false" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#createUser#0;class#UserDao#0" expanded="false" />
-                <element signature="method#createUser#1;class#UserDao#0" expanded="false" />
-                <element signature="method#deleteUser#0;class#UserDao#0" expanded="false" />
-                <element signature="method#updateUser#0;class#UserDao#0" expanded="false" />
-                <element signature="method#getAllUsers#0;class#UserDao#0" expanded="false" />
-                <element signature="e#3451#3457#0" expanded="true" />
-                <element signature="method#getUserById#0;class#UserDao#0" expanded="false" />
-                <element signature="method#getUserByCred#0;class#UserDao#0" expanded="false" />
-                <element signature="method#login#0;class#UserDao#0" expanded="false" />
-                <marker date="1492774068000" expanded="true" signature="701:794" ph="INSERT INTO account... " />
-                <marker date="1492774068000" expanded="true" signature="1436:1529" ph="INSERT INTO account... " />
-                <marker date="1492774068000" expanded="true" signature="2184:2221" ph="DELETE FROM " />
-                <marker date="1492774068000" expanded="true" signature="2639:2745" ph="UPDATE accou... " />
-                <marker date="1492774068000" expanded="true" signature="3597:3618" ph="SELECT * FRO... account" />
-                <marker date="1492774068000" expanded="true" signature="3597:3627" ph="SELECT * FRO... account" />
-                <marker date="1492774068000" expanded="true" signature="3597:3628" ph="SELECT * FRO... account" />
-                <marker date="1492774068000" expanded="true" signature="3597:3646" ph="SELECT * FRO... account" />
-                <marker date="1492774068000" expanded="true" signature="4746:4786" ph="SELECT * FRO... account" />
-                <marker date="1492774068000" expanded="true" signature="5889:5933" ph="SELECT usern... account" />
-                <marker date="1492774068000" expanded="true" signature="6730:6774" ph="SELECT usern... account" />
-              </folding>
+      <file leaf-file-name="sql7148879.product" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/2cbeb11e/063d689f-a1ba-4d7a-bfbf-1a2d28846c75/sql7148879.product">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WarehouseDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/WarehouseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#createWarehouse#0;class#WarehouseDao#0" expanded="false" />
-                <element signature="method#createWarehouse#1;class#WarehouseDao#0" expanded="false" />
-                <element signature="method#deleteWarehouse#0;class#WarehouseDao#0" expanded="false" />
-                <element signature="method#updateWarehouse#0;class#WarehouseDao#0" expanded="false" />
-                <element signature="method#getAllWarehouses#0;class#WarehouseDao#0" expanded="false" />
-                <element signature="e#3189#3200#0" expanded="true" />
-                <element signature="method#getWarehouseById#0;class#WarehouseDao#0" expanded="false" />
-                <marker date="1492774114000" expanded="true" signature="680:756" ph="INSERT INTO warehouse... " />
-                <marker date="1492774114000" expanded="true" signature="1382:1458" ph="INSERT INTO warehouse... " />
-                <marker date="1492774114000" expanded="true" signature="2011:2055" ph="DELETE FROM " />
-                <marker date="1492774114000" expanded="true" signature="2508:2596" ph="UPDATE wareh... " />
-                <marker date="1492774114000" expanded="true" signature="3340:3363" ph="SELECT * FRO... warehouse" />
-                <marker date="1492774114000" expanded="true" signature="3340:3372" ph="SELECT * FRO... warehouse" />
-                <marker date="1492774114000" expanded="true" signature="3340:3373" ph="SELECT * FRO... warehouse" />
-                <marker date="1492774114000" expanded="true" signature="3340:3391" ph="SELECT * FRO... warehouse" />
-                <marker date="1492774114000" expanded="true" signature="4392:4436" ph="SELECT * FRO... warehouse" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductDaoInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDaoInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pojos/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="77" column="11" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1849#1850#0" expanded="true" />
-                <element signature="e#1884#1885#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Warehouse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Warehouse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WarehouseDaoInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/WarehouseDaoInterface.java">
+      <file leaf-file-name="sql7148879.account" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/2cbeb11e/063d689f-a1ba-4d7a-bfbf-1a2d28846c75/sql7148879.account">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createProduct.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/createProduct.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="109" column="45" lean-forward="false" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inventory.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/inventory.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-              <folding />
+              <caret line="11" column="77" lean-forward="false" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="117" column="60" lean-forward="false" selection-start-line="117" selection-start-column="60" selection-end-line="117" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#createProduct#0;class#ProductDao#0" expanded="false" />
-                <element signature="e#2022#2049#0" expanded="false" />
-                <element signature="method#deleteProduct#0;class#ProductDao#0" expanded="false" />
-                <element signature="method#updateProduct#0;class#ProductDao#0" expanded="false" />
-                <element signature="method#getAllProducts#0;class#ProductDao#0" expanded="false" />
-                <element signature="e#5883#5892#0" expanded="true" />
-                <element signature="method#getProductById#0;class#ProductDao#0" expanded="false" />
-                <marker date="1492772541000" expanded="true" signature="902:1144" ph="INSERT INTO product... " />
-                <marker date="1492772541000" expanded="true" signature="3866:3906" ph="DELETE FROM " />
-                <marker date="1492772541000" expanded="true" signature="4346:4586" ph="UPDATE produ... " />
-                <marker date="1492772541000" expanded="true" signature="6032:6053" ph="SELECT * FRO... product" />
-                <marker date="1492772541000" expanded="true" signature="6032:6062" ph="SELECT * FRO... product" />
-                <marker date="1492772541000" expanded="true" signature="6032:6081" ph="SELECT * FRO... product" />
-                <marker date="1492772541000" expanded="true" signature="6032:6083" ph="SELECT * FRO... product" />
-                <marker date="1492772541000" expanded="true" signature="7999:8039" ph="SELECT * FRO... product" />
-              </folding>
+            <state relative-caret-position="471">
+              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -269,31 +244,32 @@
         <option value="$PROJECT_DIR$/src/main/java/pojos/Product.java" />
         <option value="$PROJECT_DIR$/web/jsp/addAdmin.jsp" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/jsp/includes/confirmLogoutUser.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/addUser.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/addWarehouse.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pojos/User.java" />
-        <option value="$PROJECT_DIR$/web/css/custom.css" />
         <option value="$PROJECT_DIR$/web/jsp/checkout.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/createAdmin.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/createProduct.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/createUser.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/createWarehouse.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/inventory.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/jsp/includes/confirmLogoutAdmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/logic/ForkJoinMergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/ProductDaoInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/web/jsp/admin.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/updateProduct.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDaoInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/WarehouseDaoInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/WarehouseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojos/Warehouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojos/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web/jsp/createWarehouse.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/createAdmin.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/updateProduct.jsp" />
+        <option value="$PROJECT_DIR$/web/css/custom.css" />
+        <option value="$PROJECT_DIR$/web/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/createProduct.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/admin.jsp" />
       </list>
     </option>
   </component>
@@ -390,10 +366,6 @@
               <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -410,42 +382,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,10 +456,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -548,32 +480,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pojos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -644,12 +550,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/web/img/Wine.png&#10;/Users/Dave/IdeaProjects/WebApp/.gitignore" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/img" />
       <recent name="$PROJECT_DIR$/src/main/java/pojos" />
       <recent name="$PROJECT_DIR$/src/main/java/utility" />
@@ -657,6 +564,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/jsp" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/jsp/img" />
+      <recent name="$PROJECT_DIR$/web/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.LocalTest">
@@ -1349,12 +1260,12 @@
       <option name="presentableId" value="Default" />
       <updated>1490948473836</updated>
       <workItem from="1490948478349" duration="3154000" />
-      <workItem from="1491205173754" duration="40987000" />
+      <workItem from="1491205173754" duration="45163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44141000" />
+    <option name="totallyTimeSpent" value="48317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1402,7 +1313,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1477,31 +1388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="52" column="49" lean-forward="false" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2cbeb11e/063d689f-a1ba-4d7a-bfbf-1a2d28846c75/sql7148879.warehouse">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1522,14 +1412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utility/HashSalt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1540,134 +1422,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="200" column="47" lean-forward="false" selection-start-line="200" selection-start-column="47" selection-end-line="200" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/test.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="12" lean-forward="false" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2cbeb11e/063d689f-a1ba-4d7a-bfbf-1a2d28846c75/sql7148879.product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/2cbeb11e/063d689f-a1ba-4d7a-bfbf-1a2d28846c75/sql7148879.account">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/includes/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/checkout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/createAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="104" column="25" lean-forward="false" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/createUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/createWarehouse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/inventory.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="154" column="0" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1705,72 +1464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/createProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/updateProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="131" column="57" lean-forward="true" selection-start-line="131" selection-start-column="57" selection-end-line="131" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="48" column="68" lean-forward="false" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/WarehouseDaoInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="77" column="11" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1849#1850#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Warehouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDaoInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1781,27 +1474,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/WarehouseDaoInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="117" column="60" lean-forward="false" selection-start-line="117" selection-start-column="60" selection-end-line="117" selection-end-column="60" />
+        <state relative-caret-position="210">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="200" column="47" lean-forward="false" selection-start-line="200" selection-start-column="47" selection-end-line="200" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="104" column="40" lean-forward="true" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#createProduct#0;class#ProductDao#0" expanded="false" />
-            <element signature="e#2022#2049#0" expanded="false" />
-            <element signature="method#deleteProduct#0;class#ProductDao#0" expanded="false" />
-            <element signature="method#updateProduct#0;class#ProductDao#0" expanded="false" />
-            <element signature="method#getAllProducts#0;class#ProductDao#0" expanded="false" />
-            <element signature="e#5883#5892#0" expanded="true" />
-            <element signature="method#getProductById#0;class#ProductDao#0" expanded="false" />
-            <marker date="1492772541000" expanded="true" signature="902:1144" ph="INSERT INTO product... " />
-            <marker date="1492772541000" expanded="true" signature="3866:3906" ph="DELETE FROM " />
-            <marker date="1492772541000" expanded="true" signature="4346:4586" ph="UPDATE produ... " />
-            <marker date="1492772541000" expanded="true" signature="6032:6053" ph="SELECT * FRO... product" />
-            <marker date="1492772541000" expanded="true" signature="6032:6062" ph="SELECT * FRO... product" />
-            <marker date="1492772541000" expanded="true" signature="6032:6081" ph="SELECT * FRO... product" />
-            <marker date="1492772541000" expanded="true" signature="6032:6083" ph="SELECT * FRO... product" />
-            <marker date="1492772541000" expanded="true" signature="7999:8039" ph="SELECT * FRO... product" />
+            <element signature="e#1849#1850#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1816,7 +1512,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="322">
           <caret line="88" column="54" lean-forward="false" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1844,10 +1540,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#createProduct#0;class#ProductDao#0" expanded="false" />
+            <element signature="e#2022#2049#0" expanded="false" />
+            <element signature="method#deleteProduct#0;class#ProductDao#0" expanded="false" />
+            <element signature="method#updateProduct#0;class#ProductDao#0" expanded="false" />
+            <element signature="method#getAllProducts#0;class#ProductDao#0" expanded="false" />
+            <element signature="e#5883#5892#0" expanded="true" />
+            <element signature="method#getProductById#0;class#ProductDao#0" expanded="false" />
+            <marker date="1492772541000" expanded="true" signature="902:1144" ph="INSERT INTO product... " />
+            <marker date="1492772541000" expanded="true" signature="3866:3906" ph="DELETE FROM " />
+            <marker date="1492772541000" expanded="true" signature="4346:4586" ph="UPDATE produ... " />
+            <marker date="1492772541000" expanded="true" signature="6032:6053" ph="SELECT * FRO... product" />
+            <marker date="1492772541000" expanded="true" signature="6032:6062" ph="SELECT * FRO... product" />
+            <marker date="1492772541000" expanded="true" signature="6032:6081" ph="SELECT * FRO... product" />
+            <marker date="1492772541000" expanded="true" signature="6032:6083" ph="SELECT * FRO... product" />
+            <marker date="1492772541000" expanded="true" signature="7999:8039" ph="SELECT * FRO... product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojos/Warehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="59" column="51" lean-forward="false" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/checkout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/WarehouseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+        <state relative-caret-position="450">
+          <caret line="79" column="64" lean-forward="false" selection-start-line="79" selection-start-column="64" selection-end-line="79" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#createWarehouse#0;class#WarehouseDao#0" expanded="false" />
@@ -1857,16 +1605,191 @@
             <element signature="method#getAllWarehouses#0;class#WarehouseDao#0" expanded="false" />
             <element signature="e#3189#3200#0" expanded="true" />
             <element signature="method#getWarehouseById#0;class#WarehouseDao#0" expanded="false" />
-            <marker date="1492774114000" expanded="true" signature="680:756" ph="INSERT INTO warehouse... " />
-            <marker date="1492774114000" expanded="true" signature="1382:1458" ph="INSERT INTO warehouse... " />
-            <marker date="1492774114000" expanded="true" signature="2011:2055" ph="DELETE FROM " />
-            <marker date="1492774114000" expanded="true" signature="2508:2596" ph="UPDATE wareh... " />
-            <marker date="1492774114000" expanded="true" signature="3340:3363" ph="SELECT * FRO... warehouse" />
-            <marker date="1492774114000" expanded="true" signature="3340:3372" ph="SELECT * FRO... warehouse" />
-            <marker date="1492774114000" expanded="true" signature="3340:3373" ph="SELECT * FRO... warehouse" />
-            <marker date="1492774114000" expanded="true" signature="3340:3391" ph="SELECT * FRO... warehouse" />
-            <marker date="1492774114000" expanded="true" signature="4392:4436" ph="SELECT * FRO... warehouse" />
+            <marker date="1492775400000" expanded="true" signature="680:756" ph="INSERT INTO warehouse... " />
+            <marker date="1492775400000" expanded="true" signature="1382:1458" ph="INSERT INTO warehouse... " />
+            <marker date="1492775400000" expanded="true" signature="2011:2055" ph="DELETE FROM " />
+            <marker date="1492775400000" expanded="true" signature="2508:2596" ph="UPDATE wareh... " />
+            <marker date="1492775400000" expanded="true" signature="3340:3363" ph="SELECT * FRO... warehouse" />
+            <marker date="1492775400000" expanded="true" signature="3340:3372" ph="SELECT * FRO... warehouse" />
+            <marker date="1492775400000" expanded="true" signature="3340:3373" ph="SELECT * FRO... warehouse" />
+            <marker date="1492775400000" expanded="true" signature="3340:3391" ph="SELECT * FRO... warehouse" />
+            <marker date="1492775400000" expanded="true" signature="4394:4438" ph="SELECT * FRO... warehouse" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="176" column="1" lean-forward="true" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/img/test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/createAdmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="79" column="45" lean-forward="false" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/createUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/createWarehouse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="100" column="6" lean-forward="false" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1492777191000" expanded="false" signature="3214:4244" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/inventory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="77" lean-forward="false" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/img/Wine.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/updateProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="175" column="53" lean-forward="false" selection-start-line="175" selection-start-column="53" selection-end-line="175" selection-end-column="53" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#form#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/createProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="109" column="45" lean-forward="false" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="61" column="82" lean-forward="false" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2cbeb11e/063d689f-a1ba-4d7a-bfbf-1a2d28846c75/sql7148879.warehouse">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2cbeb11e/063d689f-a1ba-4d7a-bfbf-1a2d28846c75/sql7148879.product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2cbeb11e/063d689f-a1ba-4d7a-bfbf-1a2d28846c75/sql7148879.account">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1937,6 +1860,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: javax.servlet:javax.servlet-api:3.1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -54,7 +54,6 @@
         </div>
 
         <!-- Display content -->
-        <div class="container-fluid" id="content">
             <h3>Get product by ID</h3>
             <form class="form-signin" method="POST" action="getProduct.do">
                 <p>Enter Product ID:</p>
@@ -172,40 +171,42 @@
                 <br>
             </form>
 
+            <!-- Display all products in a list -->
+            <h2>List of Products:</h2>
+            <div class="container-fluid" id="content">
+                <jsp:useBean id="productList" scope="session" type="java.util.ArrayList"/>
+                <code:forEach items="${productList}" var="product">
+                    <div class="row row-control">
+                        <div>
+                            <img class="col-md-2">
+                            <br><br>
+                            <img src="img/Wine.png" class="img-thumbnail" alt="img" width="80%" height="80%"/>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h5><b>Name:</b>    <code:out value="${product.name_product}"/></h5>
+                            <p><b>Price:</b>    <code:out value="${product.price}"/></p>
+                            <p><b>Color:</b>    <code:out value="${product.color}"/></p>
+                            <p><b>Grape:</b>    <code:out value="${product.grape}"/></p>
+                            <p><b>Quantity:</b> <code:out value="${product.quantity}"/></p>
+                            <p><b>Location:</b> <code:out value="${product.location}"/></p>
+                        </div>
+
+                        <div class=\"col-md-3\">
+                            <br><br><br>
+                            <p><b>About the product: </b></p>
+                            <p><code:out value="${product.description}"/></p>
+                        </div>
+
+                    </div>
+                </code:forEach>
+            </div>
+
         </div>
 
     </div>
 
-    <!-- Display all products in a list -->
-    <h2>List of Products:</h2>
-    <div class="container-fluid" id="content">
-        <jsp:useBean id="productList" scope="session" type="java.util.ArrayList"/>
-        <code:forEach items="${productList}" var="product">
-            <div class="row row-control">
-                <div>
-                    <img class="col-md-2">
-                    <br><br>
-                    <img src="img/Wine.png" class="img-thumbnail" alt="img" width="30%" height="20%"/>
-                </div>
 
-                <div class="col-md-4">
-                    <h5><b>Name:</b>    <code:out value="${product.name_product}"/></h5>
-                    <p><b>Price:</b>    <code:out value="${product.price}"/></p>
-                    <p><b>Color:</b>    <code:out value="${product.color}"/></p>
-                    <p><b>Grape:</b>    <code:out value="${product.grape}"/></p>
-                    <p><b>Quantity:</b> <code:out value="${product.quantity}"/></p>
-                    <p><b>Location:</b> <code:out value="${product.location}"/></p>
-                </div>
-
-                <div class=\"col-md-3\">
-                    <br><br><br>
-                    <p><b>About the product: </b></p>
-                    <p><code:out value="${product.description}"/></p>
-                </div>
-
-            </div>
-        </code:forEach>
-    </div>
 
     <%@include file="includes/footer.jsp"%>
 </body>

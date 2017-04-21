@@ -54,17 +54,10 @@ public class Warehouse {
     }
 
     public String toString() {
-        return "<div class=\"row row-control\">\n" +
-                "\n" +
-                "                <div class=\"col-md-4\">\n" +
-                "                    <h3>" + name_warehouse +"</h3>\n" +
-                "                    <p>Color: "+ address + "</p>\n" +
-                "                </div>\n" +
-                "\n" +
-                "                <div class=\"col-md-3\">\n" +
-                "                    <br><br><br>\n" +
-                "                    <p>"+ description + "</p>\n" +
-                "                </div>\n" +
-                "            </div>";
+        return  "ID: " + id_warehouse + "\n" +
+                "Warehouse Name: " + name_warehouse + "\n" +
+                "Address: " + address + "\n" +
+                "Description" + description + "\n";
+
     }
 }

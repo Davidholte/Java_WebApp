@@ -6,9 +6,11 @@
 .elasticbeanstalk/
 .idea/inspectionProfiles/
 out/artifacts/WebApp_war_exploded/WEB-INF/
-src/main/resources/
 src/test/
+
 target/WebApp-1.0-SNAPSHOT/META-INF/
 target/generated-sources/
 .zip
 .war
+src/main/resources/
+web/jsp/img/

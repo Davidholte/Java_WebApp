@@ -92,6 +92,8 @@
                     <p><b>Location:</b>     <code:out value="${user.location}"/></p>
                 </div>
 
+                <br><br><br>
+
             </div>
         </code:forEach>
     </div>

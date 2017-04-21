@@ -83,7 +83,7 @@ public class WarehouseDao implements WarehouseDaoInterface {
             Statement statement = connection.createStatement();
             ResultSet resultset = statement.executeQuery("SELECT * FROM warehouse ORDER BY " + string + " ASC");
 
-            // Loops through all entries in the database table and uses resultsets of data retrieved from database and puts it into an Product object
+            // Loops through all entries in the database table and uses resultsets of data retrieved from database and puts it into an Warehouse object
             while (resultset.next()) {
                 Warehouse warehouse = new Warehouse();
                 warehouse.setId(resultset.getInt("id_warehouse"));
