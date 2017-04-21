@@ -1,1 +1,1 @@
-web: java -war target/WebApp-1.eb0-SNAPSHOT.war
+web: java -war target/WebApp-1.0-SNAPSHOT.war
