@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="code" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <!-- All reference links are located in the header file -->
@@ -8,6 +8,7 @@
 
 <body>
 <div class="container">
+
     <!-- Header -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -23,22 +24,22 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-left">
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/admin.jsp">Browse Items</a>
+                        <a href="${pageContext.request.contextPath}/jsp/admin.jsp">Browse Items</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/inventory.jsp">Inventory Status</a>
+                        <a href="${pageContext.request.contextPath}/jsp/inventory.jsp">Inventory Status</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/addAdmin.jsp">Add New Admin Account</a>
+                        <a href="${pageContext.request.contextPath}/jsp/createAdmin.jsp">Add New Admin Account</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/addProduct.jsp">Add New Product</a>
+                        <a href="${pageContext.request.contextPath}/jsp/createProduct.jsp">Add New Product</a>
                     </li>
                     <li class="active">
-                        <a href="${pageContext.request.contextPath}/JSP/addWarehouse.jsp">Add New Warehouse</a>
+                        <a href="${pageContext.request.contextPath}/jsp/createWarehouse.jsp">Add New Warehouse</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/edit.jsp">Edit New Product</a>
+                        <a href="${pageContext.request.contextPath}/jsp/updateProduct.jsp">Edit Product</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -53,7 +54,7 @@
 
     <!-- Create Warehouse -->
     <h3>Add A Warehouse</h3>
-    <form class="form-signin" method="POST" action="Controller.WarehouseRegulation">
+    <form class="form-signin" method="POST" action="createWarehouse.do">
         <p>Warehouse Name:</p>
         <input type="text" class="form-control" name="name_warehouse" value="String Required" required="" autofocus=""/>
         <br>
@@ -67,8 +68,28 @@
         <br>
     </form>
 
-    <h2>List of warehouses:</h2>
-    <%=session.getAttribute("warehouseList")%>
+    <!-- Display all products in a list -->
+    <h2>List of Users:</h2>
+    <div class="container-fluid" id="content">
+        <jsp:useBean id="warehouseList" scope="session" type="java.util.ArrayList"/>
+        <code:forEach items="${warehouseList}" var="wh">
+            <div class="row row-control">
+
+                <div class="col-md-4">
+                    <h3><b>ID and Location:</b> <code:out value="${wh.id_warehouse}"/></h3>
+                    <p><b>Username:</b>         <code:out value="${wh.name_warehouse}"/></p>
+                    <p><b>Password:</b>         <code:out value="${wh.address}"/></p>
+                </div>
+
+                <div class=\"col-md-3\">
+                    <br><br><br>
+                    <p><b>About the Warehouse: </b></p>
+                    <p><code:out value="${wh.description}"/></p>
+                </div>
+
+            </div>
+        </code:forEach>
+    </div>
 
 </div>
 

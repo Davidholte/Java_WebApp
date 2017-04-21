@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="code" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <!-- All reference links are located in the header file -->
@@ -8,6 +8,7 @@
 <body>
 
 <div class="container">
+
     <!-- Header -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -23,22 +24,22 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-left">
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/admin.jsp">Browse Items</a>
+                        <a href="${pageContext.request.contextPath}/jsp/admin.jsp">Browse Items</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/inventory.jsp">Inventory Status</a>
+                        <a href="${pageContext.request.contextPath}/jsp/inventory.jsp">Inventory Status</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/addAdmin.jsp">Add New Admin Account</a>
+                        <a href="${pageContext.request.contextPath}/jsp/createAdmin.jsp">Add New Admin Account</a>
                     </li>
                     <li class="active">
-                        <a href="${pageContext.request.contextPath}/JSP/addProduct.jsp">Add New Product</a>
+                        <a href="${pageContext.request.contextPath}/jsp/createProduct.jsp">Add New Product</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/addWarehouse.jsp">Add New Warehouse</a>
+                        <a href="${pageContext.request.contextPath}/jsp/createWarehouse.jsp">Add New Warehouse</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/edit.jsp">Edit New Product</a>
+                        <a href="${pageContext.request.contextPath}/jsp/updateProduct.jsp">Edit Product</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -53,7 +54,7 @@
 
     <!-- Create Product -->
     <h3>Add A Product</h3>
-    <form class="form-signin" method="POST" action="Controller.ProductRegulation">
+    <form class="form-signin" method="POST" action="createProduct.do">
         <p>Product name:</p>
         <input type="text" class="form-control" name="product_name" value="String Required" required="" autofocus=""/>
         <br>
@@ -104,8 +105,36 @@
         <br>
     </form>
 
-    <h2>List of products:</h2>
-    <%=session.getAttribute("productList")%>
+    <!-- Display all products in a list -->
+    <h2>List of Products:</h2>
+    <div class="container-fluid" id="content">
+        <jsp:useBean id="productList" scope="session" type="java.util.ArrayList"/>
+        <code:forEach items="${productList}" var="product">
+            <div class="row row-control">
+                <div>
+                    <img class="col-md-2">
+                    <br><br>
+                    <img src="img/Wine.png" class="img-thumbnail" alt="img" width="30%" height="20%"/>
+                </div>
+
+                <div class="col-md-4">
+                    <h3><b>Name:</b>    <code:out value="${product.name_product}"/></h3>
+                    <p><b>Price:</b>    <code:out value="${product.price}"/></p>
+                    <p><b>Color:</b>    <code:out value="${product.color}"/></p>
+                    <p><b>Grape:</b>    <code:out value="${product.grape}"/></p>
+                    <p><b>Quantity:</b> <code:out value="${product.quantity}"/></p>
+                    <p><b>Location:</b> <code:out value="${product.location}"/></p>
+                </div>
+
+                <div class=\"col-md-3\">
+                    <br><br><br>
+                    <p><b>About the product: </b></p>
+                    <p><code:out value="${product.description}"/></p>
+                </div>
+
+            </div>
+        </code:forEach>
+    </div>
 
     <!-- Modal -->
     <div id="logoutAdmin" class="modal fade" role="dialog">

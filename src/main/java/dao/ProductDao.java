@@ -115,12 +115,12 @@ public class ProductDao implements ProductDaoInterface {
 
     /**Return a list of all products*/
     // Returns a list of all products existing in the database
-    public ArrayList<Product> getAllProducts() {
+    public ArrayList<Product> getAllProducts(String string) {
         ArrayList<Product> productList = new ArrayList<Product>();
         try {
             Statement statement = connection.createStatement();
-            ResultSet resultset = statement.executeQuery("SELECT * FROM product");
-            int count = 0;
+            ResultSet resultset = statement.executeQuery("SELECT * FROM product ORDER BY " + string + " ASC");
+
             // Loops through all entries in the database table and uses resultsets of data retrieved from database and puts it into an Product object
             while (resultset.next()) {
                 Product product = new Product();

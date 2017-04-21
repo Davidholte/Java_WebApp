@@ -1,9 +1,5 @@
-<%@ page import="Model.Product" %>
-<%@ page import="java.util.ArrayList" %>
-<%@ page import="java.util.List" %>
-<%@ page import="Dao.ProductDao" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="code" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <!-- All reference links are located in the header file -->
@@ -12,6 +8,7 @@
 <body>
 
 <div class="container">
+
     <!-- Header -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -27,22 +24,22 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-left">
                     <li class="active">
-                        <a href="${pageContext.request.contextPath}/JSP/admin.jsp">Browse Items</a>
+                        <a href="${pageContext.request.contextPath}/jsp/admin.jsp">Browse Items</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/inventory.jsp">Inventory Status</a>
+                        <a href="${pageContext.request.contextPath}/jsp/inventory.jsp">Inventory Status</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/addAdmin.jsp">Add New Admin Account</a>
+                        <a href="${pageContext.request.contextPath}/jsp/createAdmin.jsp">Add New Admin Account</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/addProduct.jsp">Add New Product</a>
+                        <a href="${pageContext.request.contextPath}/jsp/createProduct.jsp">Add New Product</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/addWarehouse.jsp">Add New Warehouse</a>
+                        <a href="${pageContext.request.contextPath}/jsp/createWarehouse.jsp">Add New Warehouse</a>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/edit.jsp">Edit New Product</a>
+                        <a href="${pageContext.request.contextPath}/jsp/updateProduct.jsp">Edit Product</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -58,64 +55,50 @@
     <!-- Display content -->
     <div class="container-fluid" id="content2">
 
-    <!-- Display all products in a list, editable in Product.java class -->
+        <!-- Display all products in a list, editable in Product.java class -->
+        <div class="container-fluid" id="content">
+            <jsp:useBean id="productList" scope="session" type="java.util.ArrayList"/>
+            <code:forEach items="${productList}" var="product">
+                <div class="row row-control">
+                    <div>
+                        <img class="col-md-2">
+                        <br><br>
+                        <img src="img/Wine.png" class="img-thumbnail" alt="img" width="30%" height="20%"/>
+                    </div>
 
+                    <div class="col-md-4">
+                        <h3><b>Name:</b>    <code:out value="${product.name_product}"/></h3>
+                        <p><b>Price:</b>    <code:out value="${product.price}"/></p>
+                        <p><b>Color:</b>    <code:out value="${product.color}"/></p>
+                        <p><b>Grape:</b>    <code:out value="${product.grape}"/></p>
+                        <p><b>Quantity:</b> <code:out value="${product.quantity}"/></p>
+                        <p><b>Location:</b> <code:out value="${product.location}"/></p>
+                    </div>
 
-        <%--<%=session.getAttribute("productList") %>--%>
-        <!-- Outcommented due to errors with JSTL/EL-->
-        <%--<jsp:useBean id="productList" scope="session" type="java.util.List"/>--%>
-        <%--<c:forEach items="${productList}" var="Product">--%>
-            <%--<div class="row row-control">--%>
-                <%--<div>--%>
-                    <%--<img class="col-md-2">--%>
-                    <%--<br><br>--%>
-                    <%--<img src="img/test.png" class="img-thumbnail" alt="img" width="80%" height="70%"/>--%>
-                <%--</div>--%>
+                    <div class=\"col-md-3\">
+                        <br><br><br>
+                        <p><b>About the product: </b></p>
+                        <p><code:out value="${product.description}"/></p>
+                    </div>
 
-                <%--<div class="col-md-4">--%>
-                    <%--<h3><c:out value="${Product.name_product}"/></h3>--%>
-                    <%--<p><c:out value="${Product.description}"/></p>--%>
-                <%--</div>--%>
+                    <div class="col-md-2">
+                        <br><br><br>
+                        <input type="text" name="FirstName" placeholder="1" value="1"/>
+                    </div>
 
-                <%--<div class="col-md-1">--%>
-                    <%--<br><br><br>--%>
-                    <%--<p><c:out value="${Product.price}"/></p>--%>
-                    <%--<p><c:out value="${Product.color}"/></p>--%>
-                    <%--<p><c:out value="${Product.grape}"/></p>--%>
-                    <%--<p><c:out value="${Product.quantity}"/></p>--%>
-                    <%--<p><c:out value="${Product.location}"/></p>--%>
-                <%--</div>--%>
-
-                <%--<div class="col-md-2">--%>
-                    <%--<br><br><br>--%>
-                    <%--<input type="text" name="FirstName" placeholder="1" value="1"/>--%>
-                <%--</div>--%>
-
-                <%--<div class="col-md-2">--%>
-                    <%--<br><br><br>--%>
-                    <%--<a href="#">Add to cart</a>--%>
-                <%--</div>--%>
-                <%--<!-- Button rows -->--%>
-                <%--<div class="row">--%>
-                    <%--<div class="col-md-4"></div>--%>
-                    <%--<div class="col-md-6">--%>
-                        <%--<a href="${pageContext.request.contextPath}/JSP/edit.jsp" class="btn btn-succes" input type="submit" name="edit" value="edit"><i class="fa fa-pencil-square-o fa-lg"></i></a>--%>
-                        <%--<a href="${pageContext.request.contextPath}/JSP/edit.jsp" class="btn btn-danger" input type="submit" name="delete" value="delete"><i class="fa fa-trash-o fa-lg"></i></a>--%>
-                    <%--</div>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</c:forEach>--%>
-
-
-        <!-- First row -->
-        <h2>List of products:</h2>
-        <%=session.getAttribute("productList") %>
+                    <div class="col-md-2">
+                        <br><br><br>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+            </code:forEach>
+        </div>
 
         <!-- Button rows -->
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-6">
-                <a href="${pageContext.request.contextPath}/JSP/edit.jsp" class="btn btn-succes" input type="submit"><i class="fa fa-pencil-square-o fa-lg"></i></a>
+                <a href="${pageContext.request.contextPath}updateProduct.jsp" class="btn btn-succes" input type="submit"><i class="fa fa-pencil-square-o fa-lg"></i></a>
                 <a href="#" class="btn btn-danger" input type="submit" name="delete" value="delete"><i class="fa fa-trash-o fa-lg"></i></a>
             </div>
         </div>

@@ -73,8 +73,7 @@ a#adminLink, a#userLink {
 [contenteditable="true"]:hover { outline: 1px solid #99D6FF; box-shadow: 5 5 2px #99D6FF; background-color:#fff;}
 
 /** Edit and delete buttons */
-.btn-succes
-{
+.btn-succes {
     background-color:#428bca;
     text-decoration:none;
     color:white;

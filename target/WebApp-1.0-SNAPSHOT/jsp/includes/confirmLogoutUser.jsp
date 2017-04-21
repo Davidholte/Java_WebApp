@@ -6,7 +6,7 @@
             <br>
         </div>
         <div class="modal-body">
-            <form class="form-signin confirm-box" method="POST" action="/Controller.LoginUser">
+            <form class="form-signin confirm-box" method="POST" action="logout.do">
                 <p>Are you sure?</p>
                 <button class="btn btn-trans" value="btn-yes" name="btn-yes" type="submit">Yes</button>
                 <button class="btn btn-trans"value="btn-no" name="btn-no" type="submit">No</button>

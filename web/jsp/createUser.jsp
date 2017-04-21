@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="code" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <!-- All reference links are located in the header file -->
@@ -8,6 +8,7 @@
 
 <body>
 <div class="container">
+
     <!-- Header -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -22,7 +23,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="${pageContext.request.contextPath}/JSP/index.jsp">Go back to front page</a>
+                        <a href="${pageContext.request.contextPath}/jsp/index.jsp">Go back to front page</a>
                     </li>
                 </ul>
             </div>
@@ -31,7 +32,7 @@
 
     <!-- Create User -->
     <h3>Add A User</h3>
-    <form class="form-signin" method="POST" action="Controller.UserRegulation">
+    <form class="form-signin" method="POST" action="createUser.do">
         <p>Username:</p>
         <input type="text" class="form-control" name="username" value="String Required" required="" autofocus=""/>
         <br>
@@ -46,14 +47,10 @@
         <br>
         <p>Location:</p>
         <input type="text" class="form-control" name="location_user" value="Integer Required" required="" autofocus=""/>
-        <br>
-        <input type="hidden" name="role" value="u">
         <button class="btn btn-lg btn-primary btn-block btn-trans" name="submit_btn_user" type="submit">Submit to Database</button>
         <br>
         <br>
     </form>
-
-
 
 </div>
 

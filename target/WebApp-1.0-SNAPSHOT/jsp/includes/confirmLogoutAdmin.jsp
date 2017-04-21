@@ -6,10 +6,10 @@
             <br>
         </div>
         <div class="modal-body">
-            <form class="form-signin confirm-box" method="POST" action="/Controller.LoginAdmin">
+            <form class="form-signin confirm-box" method="POST" action="logout.do">
                     <p>Are you sure?</p>
                     <button class="btn btn-trans" value="btn-yes" name="btn-yes" type="submit">Yes</button>
-                    <button class="btn btn-trans"value="btn-no" name="btn-no" type="submit">No</button>
+                    <button class="btn btn-trans"value="btn-no" name="btn-no" data-dismiss="modal" type="submit">No</button>
             </form>
         </div>
         <div class="modal-footer custom-body">

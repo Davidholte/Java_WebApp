@@ -11,12 +11,14 @@
   <head>
       <!-- All reference links are located in the header file -->
       <%@include file="includes/header.jsp" %>
-    <title>$Title$</title>
+
+    <title>$Diwine$</title>
   </head>
   <body>
 
-  <!-- Content on the site -->
+  <!------------------------ Content on the site ------------------------->
   <div class="container">
+
       <!-- Header -->
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
           <div class="container-fluid">
@@ -33,14 +35,11 @@
                   <ul class="nav navbar-nav navbar-right">
                       <li>
                           <!-- userModal-->
-                          <a href="#" data-toggle="modal" data-target=<%=session.getAttribute("modalLink") %>><i class="fa fa-user fa-fw"></i><%=session.getAttribute("name") %></a>
+                          <a href="#" data-toggle="modal" data-target="#userModal"><i class="fa fa-user fa-fw"></i>User Login</a>
                       </li>
+                          <!-- adminModal-->
                       <li>
-                          <a href="#" data-toggle="modal" data-target="#adminModal"><i class="fa fa-user fa-fw"></i> Admin
-                              Login</a>
-                      </li>
-                      <li>
-                          <a href="edit.jsp" data-toggle="modal"> Browse</a>
+                          <a href="#" data-toggle="modal" data-target="#adminModal"><i class="fa fa-user fa-fw"></i> Admin Login</a>
                       </li>
                   </ul>
               </div>
@@ -49,7 +48,7 @@
 
       <br><br><br>
 
-      <!-- Display all products in a list, editable in Product.java class -->
+      <!-- Display all products in a list -->
       <div class="container-fluid" id="content">
           <jsp:useBean id="productList" scope="session" type="java.util.ArrayList"/>
           <code:forEach items="${productList}" var="product">
@@ -57,16 +56,16 @@
               <div>
                   <img class="col-md-2">
                   <br><br>
-                  <img src="img/test.png" class="img-thumbnail" alt="img" width="30%" height="20%"/>
+                  <img src="img/Wine.png" class="img-thumbnail" alt="img" width="30%" height="20%"/>
               </div>
 
               <div class="col-md-4">
-                  <h3><b>Name:</b> <code:out value="${product.name_product}"/></h3>
-                  <p><b>Price:</b> <code:out value="${product.price}"/></p>
-                  <p><b>Color:</b> <code:out value="${product.color}"/></p>
-                  <p><b>Grape:</b> <code:out value="${product.grape}"/></p>
-                  <p><b>Quantity:</b> <code:out value="${product.quantity}"/></p>
-                  <p><b>Location:</b> <code:out value="${product.location}"/></p>
+                  <h5><b>Name:</b>      <code:out value="${product.name_product}"/></h5>
+                  <p><b>Price:</b>      <code:out value="${product.price}"/></p>
+                  <p><b>Color:</b>      <code:out value="${product.color}"/></p>
+                  <p><b>Grape:</b>      <code:out value="${product.grape}"/></p>
+                  <p><b>Quantity:</b>   <code:out value="${product.quantity}"/></p>
+                  <p><b>Location:</b>   <code:out value="${product.location}"/></p>
               </div>
 
               <div class=\"col-md-3\">
@@ -90,8 +89,9 @@
 
   </div>
 
+  <!------------------------ Login/Logout Pop-ups ------------------------>
 
-  <!-- User Login Modal -->
+  <!-- User Login -->
   <div id="userModal" class="modal fade" role="dialog">
       <div class="modal-dialog">
 
@@ -102,13 +102,13 @@
                   <h4 class="modal-title">User login</h4>
               </div>
               <div class="modal-body custom-body">
-                  <form class="form-signin" method="POST" action="Controller.LoginUser">
+                  <form class="form-signin" method="POST" action="login.do">
                       <p>Username</p>
                       <input type="text" class="form-control" name="username" required="" autofocus=""/>
                       <br>
                       <p>Password</p>
                       <input type="password" class="form-control" name="password" required=""/>
-                      <a href="JSP/addUser.jsp" id="userLink">Create new user account</a>
+                      <a href="jsp/createUser.jsp" id="userLink">Create new user account</a>
                       <br><br>
                       <button class="btn btn-lg btn-primary btn-block btn-trans" type="submit">Login</button>
                   </form>
@@ -120,7 +120,7 @@
       </div>
   </div>
 
-  <!-- Admin Login modal -->
+  <!-- Admin Login -->
   <div id="adminModal" class="modal fade" role="dialog">
       <div class="modal-dialog">
 
@@ -131,7 +131,7 @@
                   <h4 class="modal-title">Admin login</h4>
               </div>
               <div class="modal-body custom-body">
-                  <form class="form-signin" method="POST" action="Controller.LoginAdmin">
+                  <form class="form-signin" method="POST" action="login.do">
                       <p>Username</p>
                       <input type="text" class="form-control" name="username" required="" autofocus=""/>
                       <br>
@@ -148,12 +148,10 @@
       </div>
   </div>
 
-
   <!-- Logout -->
   <div id="logoutUser" class="modal fade" role="dialog">
       <%@include file="includes/confirmLogoutUser.jsp" %>
   </div>
-
 
   <!-- All reference links are located in the footer file -->
   <%@include file="includes/footer.jsp" %>

@@ -11,7 +11,7 @@ public class User {
     private String username;
     private byte[] salt;
     private String password;
-    private String role;
+    private boolean role;
     private String email;
     private int bought_items;
     private int location;
@@ -22,7 +22,7 @@ public class User {
     }
 
     /**Full Constructor:*/
-    public User(int id_user, String username, String password, String role, String email, int bought_items, int location) throws NoSuchAlgorithmException, NoSuchProviderException{
+    public User(int id_user, String username, String password, boolean role, String email, int bought_items, int location) throws NoSuchAlgorithmException, NoSuchProviderException{
         this.id_user = id_user;
         this.username = username;
         this.salt = sec.getSalt();
@@ -54,11 +54,15 @@ public class User {
         this.password = sec.getSecurePassword(password, salt);
     }
 
-    public String getRole() {
+    public void setPasswordUnEnc(String password) {
+        this.password = password;
+    }
+
+    public boolean getRole() {
         return role;
     }
 
-    public void setRole(String role) {
+    public void setRole(boolean role) {
         this.role = role;
     }
 

@@ -8,6 +8,7 @@
 <body>
 
 <div class="container">
+
     <!-- Header -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -39,6 +40,7 @@
 
     <!-- Display content -->
     <div class="container-fluid" id="content">
+
         <!-- First row -->
         <div class="row row-control">
             <div class="col-md-4">

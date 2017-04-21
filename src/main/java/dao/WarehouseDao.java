@@ -2,11 +2,8 @@ package dao;
 
 import pojos.Warehouse;
 import utility.SQL_DB_Connector;
-
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.List;
-
 
 public class WarehouseDao implements WarehouseDaoInterface {
 
@@ -80,18 +77,18 @@ public class WarehouseDao implements WarehouseDaoInterface {
 
     /**Return a list of all warehouses*/
     // Returns a list of all warehouses existing in the database
-    public ArrayList<Warehouse> getAllWarehouse() {
+    public ArrayList<Warehouse> getAllWarehouses(String string) {
         ArrayList<Warehouse> warehouseList = new ArrayList<Warehouse>();
         try {
             Statement statement = connection.createStatement();
-            ResultSet resultset = statement.executeQuery("SELECT * FROM warehouse");
+            ResultSet resultset = statement.executeQuery("SELECT * FROM warehouse ORDER BY " + string + " ASC");
 
             // Loops through all entries in the database table and uses resultsets of data retrieved from database and puts it into an Product object
             while (resultset.next()) {
                 Warehouse warehouse = new Warehouse();
                 warehouse.setId(resultset.getInt("id_warehouse"));
-                warehouse.setName(resultset.getString("username"));
-                warehouse.setAddress(resultset.getString("password"));
+                warehouse.setName(resultset.getString("name_warehouse"));
+                warehouse.setAddress(resultset.getString("address"));
                 warehouse.setDescription(resultset.getString("description"));
                 warehouseList.add(warehouse);
             }
